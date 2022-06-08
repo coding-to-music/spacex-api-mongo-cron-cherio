@@ -8,7 +8,11 @@ https://github.com/coding-to-music/spacex-api-mongo-cron-cherio
 
 https://spacex-api-mongo-cron-cherio.vercel.app
 
-From / By
+From / By https://github.com/r-spacex/SpaceX-API
+
+```java
+GET https://api.spacexdata.com/v4/launches/latest
+```
 
 ## Environment variables:
 
