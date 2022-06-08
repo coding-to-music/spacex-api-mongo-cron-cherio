@@ -1,11 +1,12 @@
 {
-  "name": "spacex-api",
+  "name": "spacex-api-mongo-cron-cherio",
   "version": "4.0.0",
   "description": "Open Source REST API for data about SpaceX",
   "main": "server.js",
   "scripts": {
     "test": "npm run lint && npm run check-dependencies && jest --silent --verbose",
     "start": "node server.js",
+    "deploy": "git add . && git commit -m Build && git push",
     "worker": "node jobs/worker.js",
     "lint": "eslint .",
     "check-dependencies": "npx depcheck --ignores=\"pino-pretty\""
